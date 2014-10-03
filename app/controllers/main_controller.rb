@@ -3,10 +3,3 @@ class MainController < ApplicationController
   end
 end
 
-
-   * title:string
-   * year:integer
-   * artist:string
-   * genre:string
-   * language:string
-   * notes:text
