@@ -1,4 +1,6 @@
 Jiggletothebeat::Application.routes.draw do
+  resources :songs
+
   get 'main/index'
   get 'music', to: 'music#index'
   # The priority is based upon order of creation: first created -> highest priority.
