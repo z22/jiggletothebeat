@@ -19,13 +19,25 @@ html {
   background-size: cover;
 }
 
-a {
+/*a {
   color: white;
   text-decoration: none;
   font-family: Georgia;
   font-style: italic;
-}
+}*/
 
 object {
   margin-left: 5px;
+}
+
+.yellowbanner {
+  background-image: image-url('yellow.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 350px;
+  width: 1280px;
+  margin-top: 140px;
+  margin-bottom: 100px;
 }
