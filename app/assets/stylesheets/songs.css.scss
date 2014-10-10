@@ -1,54 +1,9 @@
-// Place all the styles related to the Songs controller here.
+font// Place all the styles related to the Songs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.song-list {
-  margin-top: 80px;
-  margin-left: 250px;
-}
 
-.list-group {
-  border: 1px solid #ddd;
-  border-bottom: transparent;
-}
-
-.list-group-item-heading {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  padding-top: 10px;
-  /*margin-bottom: -1px;*/
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-  border-top: transparent;
-  a:link {
-    text-decoration: none;
-    color: #00CCFF;
-    padding-right: 60px;
-  }
-  a:visited {
-    text-decoration: none;
-    color: #00CCFF;
-  }
-  a:hover {
-    text-decoration: none;
-    background-color: transparent;
-    color: #00B8E6;
-    -moz-transition: color 300ms;
-    -o-transition: color 300ms;
-    -webkit-transition: color 300ms;
-    transition: color 300ms;
-  }
-  a:active {
-    text-decoration: none;
-    color: #00CCFF;
-  }
-}
-
-.list-group-item-text {
-
-}
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
