@@ -35,8 +35,27 @@
     <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 
     <%= javascript_include_tag "application" %>
+
   </head>
   <body>
+
+
+
+
+
+<div id="wrapper" class="active">
+  <div id="sidebar-wrapper">
+    <ul id="sidebar_menu" class="sidebar-nav">
+        <li class="sidebar-brand"><a id="menu-toggle" data-toggle="collapse" href="#">Menu<i class="fa fa-align-justify" style="padding-left: 17px"></i></a></li>
+    </ul>
+    <ul class="sidebar-nav" id="sidebar">
+      <li><a href="songs">All Songs<i class="fa fa-music" style="float:right; padding-right: 32px; padding-top: 13px"></i></a></li>
+      <li><a>Link2<i class="fa fa-music" style="float:right; padding-right: 32px; padding-top: 13px"></i></span></a></li>
+    </ul>
+  </div>
+</div>
+
+
 
 <%= render 'layouts/sidebar' %>
 
