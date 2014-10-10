@@ -1,10 +1,10 @@
 
-  <div class="row">
+  <div class="row" style="margin-right: 100px">
     <div class="yellowbanner">
     </div>
   </div>
 
-  <div class="row" >
+  <div class="row" style="border-top: 1px #888 solid; padding-top: 40px; margin-right: 100px">
     <div class="col-md-6">
 
       <div class="song-list">
@@ -19,14 +19,40 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <%= link_to image_tag("775.jpg"), "http://www.google.com", :class => 'img-thumbnail'  %>
+
+    <div class="col-md-6">
+
+      <div class="song-list">
+        <div class="song-list-heading">
+          <i class="fa fa-star fa-3" style="color: white; font-size: 44px; padding-right: 15px"></i><h1>Popular Songs</h1><i class="fa fa-star" style="color: white; font-size: 44px; padding-left: 15px"></i>
+        </div>
+        <div class="list-group">
+          <% @popular_songs.each do |song| %>
+          <h4 class="list-group-item-heading"><%= link_to song.title, song %></h4>
+          <p class="list-group-item-text"></p>
+          <% end %>
+        </div>
+      </div>
     </div>
-    <div class="col-md-3">
-      <%= link_to image_tag("775.jpg"), "http://www.google.com", :class => 'img-thumbnail'  %>
-    </div>
+
+
   </div>
 
 
 
 
+  <div class="row" style="border-top: 1px #888 solid; padding-top: 40px; margin-right: 100px">
+    <div class="col-md-3">
+      <%= link_to image_tag("775.jpg"), "http://www.google.com", :class => 'img-thumbnail'  %>
+    </div>
+    <div class="col-md-3">
+      <%= link_to image_tag("775.jpg"), "http://www.google.com", :class => 'img-thumbnail'  %>
+    </div>
+    <div class="col-md-3">
+      <%= link_to image_tag("775.jpg"), "http://www.google.com", :class => 'img-thumbnail'  %>
+    </div>
+    <div class="col-md-3">
+      <%= link_to image_tag("775.jpg"), "http://www.google.com", :class => 'img-thumbnail'  %>
+    </div>
+
+  </div>
