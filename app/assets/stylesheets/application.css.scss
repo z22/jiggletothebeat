@@ -11,6 +11,16 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans);
 
+.brand img {
+  height: 70px;
+  padding-bottom: 10px;
+}
+
+.brand a {
+  /*display: inline-block;*/
+  width: 100%;
+}
+
 
 .footer {
   z-index: 2000;
@@ -74,7 +84,7 @@ body {
   }
 }
 
-.navbar .brand {
+/*.navbar .brand {
 
   a:link {
     text-decoration: none;
@@ -99,5 +109,5 @@ body {
     text-decoration: none;
     color: #fff;
   }
-}
+}*/
 

@@ -3,12 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.top-margin {
+  margin-top: 50px;
+}
+
+
+.contactus {
+  color: #00CCFF;
+}
+
 h1 {
   font-family: Impact;
   font-size: 60px;
   color: white;
   margin: 0;
-
 }
 
 body {
@@ -16,19 +24,10 @@ body {
 }
 
 html {
-  /*background: url(775.jpg) no-repeat center center fixed;*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 }
 
-/*a {
-  color: white;
-  text-decoration: none;
-  font-family: Georgia;
-  font-style: italic;
-}*/
+
 
 object {
   margin-left: 5px;
@@ -42,6 +41,55 @@ object {
   background-size: cover;
   height: 350px;
   width: 1280px;
-  margin-top: 140px;
+  margin-top: 50px;
   margin-bottom: 100px;
+}
+
+
+/*Popular Song List*/
+.song-list {
+  margin-top: 80px;
+  margin-left: 250px;
+}
+
+.list-group {
+  border: 1px solid #ddd;
+  border-bottom: transparent;
+}
+
+.list-group-item-heading {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  padding-top: 10px;
+  /*margin-bottom: -1px;*/
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  border-top: transparent;
+  a:link {
+    text-decoration: none;
+    color: #00CCFF;
+    padding-right: 60px;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #00CCFF;
+  }
+  a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #00B8E6;
+    -moz-transition: color 300ms;
+    -o-transition: color 300ms;
+    -webkit-transition: color 300ms;
+    transition: color 300ms;
+  }
+  a:active {
+    text-decoration: none;
+    color: #00CCFF;
+  }
+}
+
+.list-group-item-text {
+
 }

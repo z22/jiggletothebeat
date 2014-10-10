@@ -3,6 +3,11 @@ Jiggletothebeat::Application.routes.draw do
 
   get 'main/index'
   get 'music', to: 'music#index'
+
+
+
+  match ':controller(/:action(/:id(.:format)))', :via => :get
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

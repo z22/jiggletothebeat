@@ -17,3 +17,14 @@
 </div>
 
 </div> <!-- .container-fluid -->
+
+
+<div class="song-list">
+<div class="list-group">
+  <% @songs.each do |song| %>
+
+  <h4 class="list-group-item-heading"><%= link_to song.title, song %></h4>
+  <p class="list-group-item-text"></p>
+  <% end %>
+</div>
+</div>

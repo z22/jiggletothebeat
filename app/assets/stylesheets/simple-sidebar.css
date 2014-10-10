@@ -58,6 +58,10 @@
     list-style: none;
 }
 
+.sidebar-nav ul {
+    list-style: none;
+}
+
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
