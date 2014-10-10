@@ -5,6 +5,8 @@ class ApplicationController < ActionController::Base
 
 before_filter :access_to_songs
   def access_to_songs
-    @songs = Song.all
+    @allsongs = Song.all
   end
+
+
 end
