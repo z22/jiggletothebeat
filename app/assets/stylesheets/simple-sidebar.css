@@ -5,6 +5,18 @@
  */
 
 
+.sidebar-menu-icon {
+    float:right;
+    padding-right: 20px;
+    padding-top: 23px
+}
+
+.sidebar-icon {
+    float:right;
+    padding-right: 25px;
+    padding-top: 13px
+}
+
 
 .row{
     margin-left:0px;
@@ -19,8 +31,8 @@
 
 #sidebar-wrapper {
     margin-left: -150px;
-    left: 70px;
-    width: 150px;
+    left: 8px; /* control how wide the hidden sidebar can be seen*/
+    width: 200px;
     background: #222;
     position: fixed;
     height: 100%;
@@ -31,7 +43,7 @@
 .sidebar-nav {
     display: block;
     float: left;
-    width: 150px;
+    width: 200px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -58,7 +70,7 @@
     display: block;
     float: left;
     text-decoration: none;
-    width: 150px;
+    width: 200px;
     background: #252525;
     border-top: 1px solid #373737;
     border-bottom: 1px solid #1A1A1A;
@@ -148,8 +160,8 @@
     padding-left: 150px;
 }
 #wrapper.active #sidebar-wrapper {
-    left: 150px;
-    width: 150px;
+    left: 100px;
+    width: 200px;
     transition: all .4s ease 0s;
 }
 }

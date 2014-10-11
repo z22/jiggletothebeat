@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
 before_filter :access_to_songs
   def access_to_songs
     @allsongs = Song.all
+    @popular_songs = @allsongs.where(popular: true).sort! { |a,b| a.title <=> b.title }
   end
 
 

@@ -41,23 +41,31 @@
 
 
 
-
+<!-- Sidebar -->
 
 <div id="wrapper" class="active">
   <div id="sidebar-wrapper">
     <ul id="sidebar_menu" class="sidebar-nav">
-        <li class="sidebar-brand"><a id="menu-toggle" data-toggle="collapse" href="#">Menu<i class="fa fa-align-justify" style="padding-left: 17px"></i></a></li>
+        <li class="sidebar-brand"><a id="menu-toggle" data-toggle="collapse" href="#">Menu<i class="fa fa-align-justify sidebar-menu-icon"></i></a></li>
     </ul>
     <ul class="sidebar-nav" id="sidebar">
-      <li><a href="songs">All Songs<i class="fa fa-music" style="float:right; padding-right: 32px; padding-top: 13px"></i></a></li>
-      <li><a>Link2<i class="fa fa-music" style="float:right; padding-right: 32px; padding-top: 13px"></i></span></a></li>
+      <li>
+        <%= link_to songs_path do %>
+                All Songs<i class="fa fa-music sidebar-icon"></i>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "main/popularsongs" do %>
+                Popular Songs<i class="fa fa-music sidebar-icon" ></i>
+        <% end %>
+      </li>
+
     </ul>
   </div>
 </div>
 
 
-
-<%= render 'layouts/sidebar' %>
+<!-- Navbar -->
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -75,13 +83,13 @@
           <div class="container nav-collapse">
               <div class="navbar-links">
                 <%= link_to root_path, id: "logo" do %>
-                <i class="fa fa-home fa-1" style="padding-right:8px; color: white"></i>Home
+                  <i class="fa fa-home fa-1" style="padding-right:8px; color: white"></i>Home
                 <% end %>
                 <%= link_to songs_path, id: "logo" do %>
-                <i class="fa fa-music fa-1" style="padding-right:8px; color: white"></i>Songs
+                  <i class="fa fa-music fa-1" style="padding-right:8px; color: white"></i>Songs
                 <%end%>
                 <%= link_to "main/contactus", id: "logo" do %>
-                <i class="fa fa-envelope fa-1" style="padding-right:8px; color: white"></i>Contact Us
+                  <i class="fa fa-envelope fa-1" style="padding-right:8px; color: white"></i>Contact Us
                 <%end%>
               </div>
           </div><!--/.nav-collapse -->
@@ -96,6 +104,9 @@
         </div>
 
         </div><!--/row-->
+
+
+<!-- Footer -->
 
       <footer>
         <div class="footer">

@@ -1,0 +1,24 @@
+<!-- Popular Songs Page (main/popularsongs) -->
+
+<!-- List of Popular Songs -->
+
+<div class="popular-songs-list">
+
+<div class="row">
+  <div class="col-md-6">
+
+        <div class="song-list">
+          <div class="song-list-heading">
+            <i class="fa fa-star fa-3" style="color: white; font-size: 44px; padding-right: 15px"></i><h1>Popular Songs</h1><i class="fa fa-star" style="color: white; font-size: 44px; padding-left: 15px"></i>
+          </div>
+          <div class="list-group">
+            <% @popular_songs.each do |song| %>
+            <h4 class="list-group-item-heading"><%= link_to song.title, song %></h4>
+            <p class="list-group-item-text"></p>
+            <% end %>
+          </div>
+        </div>
+  </div>
+</div>
+
+</div>

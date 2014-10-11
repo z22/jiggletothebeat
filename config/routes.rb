@@ -3,7 +3,6 @@ Jiggletothebeat::Application.routes.draw do
   resources :songs
 
   get 'main/index'
-  get 'music', to: 'music#index'
 
 
 

@@ -1,15 +1,22 @@
+<!-- Homepage (main/index) -->
+
+
+<!-- JIGGLE TO THE BEAT banner -->
 
   <div class="row" style="margin-right: 100px">
     <div class="yellowbanner">
     </div>
   </div>
 
+
+<!-- Featured Lists of Songs -->
+
   <div class="row" style="border-top: 1px #888 solid; padding-top: 40px; margin-right: 100px">
     <div class="col-md-6">
 
       <div class="song-list">
         <div class="song-list-heading">
-          <i class="fa fa-star fa-3" style="color: white; font-size: 44px; padding-right: 15px"></i><h1>Popular Songs</h1><i class="fa fa-star" style="color: white; font-size: 44px; padding-left: 15px"></i>
+          <i class="fa fa-star fa-3" style="color: white; font-size: 44px; padding-right: 15px"></i><h1><%= link_to "Popular Songs", "main/popularsongs" %></h1><i class="fa fa-star" style="color: white; font-size: 44px; padding-left: 15px"></i>
         </div>
         <div class="list-group">
           <% @popular_songs.each do |song| %>
@@ -24,7 +31,7 @@
 
       <div class="song-list">
         <div class="song-list-heading">
-          <i class="fa fa-star fa-3" style="color: white; font-size: 44px; padding-right: 15px"></i><h1>Popular Songs</h1><i class="fa fa-star" style="color: white; font-size: 44px; padding-left: 15px"></i>
+          <i class="fa fa-star fa-3" style="color: white; font-size: 44px; padding-right: 15px"></i><h1><%= link_to "Popular Songs", "main/popularsongs" %></h1><i class="fa fa-star" style="color: white; font-size: 44px; padding-left: 15px"></i>
         </div>
         <div class="list-group">
           <% @popular_songs.each do |song| %>
@@ -39,7 +46,7 @@
   </div>
 
 
-
+<!-- Thumbnails -->
 
   <div class="row" style="border-top: 1px #888 solid; padding-top: 40px; margin-right: 100px">
     <div class="col-md-3">

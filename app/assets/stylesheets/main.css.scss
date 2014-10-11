@@ -41,10 +41,12 @@ object {
   margin-right: auto;
 }
 
+.all-songs-list {
+  margin-top: 30px;
+}
 
-/*Popular Song List*/
-.song-list {
-
+.popular-songs-list {
+  margin-top: 30px;
 }
 
 .song-list-heading {
@@ -54,7 +56,27 @@ object {
     font-family: Josefin Sans;
     font-weight: 700;
     display: inline-block;
-
+  a:link {
+    text-decoration: none;
+    color: #00CCFF;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #00CCFF;
+  }
+  a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    -moz-transition: color 300ms;
+    -o-transition: color 300ms;
+    -webkit-transition: color 300ms;
+    transition: color 300ms;
+  }
+  a:active {
+    text-decoration: none;
+    color: #00CCFF;
+  }
   }
 }
 
