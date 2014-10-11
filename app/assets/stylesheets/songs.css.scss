@@ -11,9 +11,12 @@ body {
 
 
 .page-header {
-  float: left;
+  margin-top: 60px;
+  margin-left: 15px;
   color: #0066FF;
-  font-family: Ostrich Sans;
+  font-family: Ostrich Sans Rounded;
+  font-size: 90px;
+  border-bottom: 2px solid #aaa;
 }
 
 .song-item {
