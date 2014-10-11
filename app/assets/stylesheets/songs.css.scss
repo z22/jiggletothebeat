@@ -2,12 +2,46 @@ font// Place all the styles related to the Songs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
-
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
+}
+
+
+.page-header {
+  float: left;
+  color: #0066FF;
+  font-family: Ostrich Sans;
+}
+
+.song-item {
+  float: left;
+  h3 {
+    font-family: Josefin Sans;
+    font-size: 40px;
+    a:link {
+      text-decoration: none;
+      color: #0066FF;
+    }
+    a:visited {
+      text-decoration: none;
+      color: #0066FF;
+    }
+    a:hover {
+      text-decoration: none;
+      background-color: transparent;
+      color: #fff;
+      -moz-transition: color 300ms;
+      -o-transition: color 300ms;
+      -webkit-transition: color 300ms;
+      transition: color 300ms;
+    }
+    a:active {
+      text-decoration: none;
+      color: #0066FF;
+    }
+  }
+
 }
