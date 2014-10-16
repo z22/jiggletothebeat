@@ -59,3 +59,5 @@ gem 'guard-livereload'
 gem 'rails_admin'
 gem 'devise'
 gem 'cancan'
+gem 'foreman', group: [:development, :test]
+
