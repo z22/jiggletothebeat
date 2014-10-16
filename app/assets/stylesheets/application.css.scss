@@ -11,14 +11,32 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:400,700);
 
-.brand img {
-  height: 70px;
-  padding-bottom: 10px;
-}
 
-.brand a {
-  /*display: inline-block;*/
-  width: 100%;
+
+.navbar-logo {
+  padding-top: 45px;
+  padding-left: 20px;
+  float: left;
+  font-size: 60px;
+  font-family: Ostrich Sans Rounded;
+  color: #fff;
+  a:link {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+  }
+  a:active {
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 

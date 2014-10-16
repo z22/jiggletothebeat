@@ -70,17 +70,9 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-
-          <div class="brand">
-          <%= link_to image_tag("yellow.jpg"), root_path %>
+        <div class="navbar-logo">
+            <%=link_to "JTTB", root_path%>
           </div>
-
-          <div class="container nav-collapse">
               <div class="navbar-links">
                 <%= link_to root_path, id: "logo" do %>
                   <i class="fa fa-home fa-1" style="padding-right:8px; color: white"></i>Home
@@ -91,8 +83,7 @@
                 <%= link_to "main/contactus", id: "logo" do %>
                   <i class="fa fa-envelope fa-1" style="padding-right:8px; color: white"></i>Contact Us
                 <%end%>
-              </div>
-          </div><!--/.nav-collapse -->
+        </div>
         </div>
       </div>
     </div>
